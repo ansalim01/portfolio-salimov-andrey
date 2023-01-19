@@ -808,7 +808,7 @@ body._lock {
         width: 100%;
         // margin-left: auto;
         background: rgb(255, 208, 80);
-        background: linear-gradient(90deg, rgba(255, 208, 80, 1) 81%, rgba(89, 46, 169, 1) 81%);
+        background: linear-gradient(90deg, rgba(255, 208, 80, 1) 73%, rgba(89, 46, 169, 1) 73%);
     }
 }
 
@@ -817,7 +817,7 @@ body._lock {
 /////////////////////////////////
 
 .main-about-us {
-
+    margin-bottom: 128px;
     // .main-about-us__container
 
     &__container {}
@@ -914,5 +914,108 @@ body._lock {
         align-items: center;
 
         color: #592EA9;
+    }
+}
+
+.main-catagory {
+
+    // .main-catagory__container
+
+    &__container {}
+
+    // .main-catagory__title
+
+    &__title {
+        text-align: center;
+        font-family: 'Sen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        /* identical to box height, or 133% */
+
+        letter-spacing: -2px;
+
+        color: #232536;
+        margin-bottom: 48px;
+
+    }
+
+    // .main-catagory__body
+
+    &__body {}
+}
+
+.catagory-main {
+
+    // .catagory-main__row
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    // .catagory-main__items
+
+    &__items {
+
+        max-width: 296px;
+        max-height: 228px;
+        border: 1px solid rgba(109, 110, 118, 0.3);
+        padding: 32px;
+
+        &-yellow {
+            background-color: rgba(255, 208, 80, 1);
+            background: #FFD050;
+        }
+    }
+
+
+    // .catagory-main__imgs
+
+    &__imgs {
+        margin-bottom: 16px;
+        background-color: #FBF6EA;
+        border-radius: 10px;
+        width: 48px;
+
+        text-align: center;
+
+        line-height: 48px;
+    }
+
+    &__imgs img {
+        vertical-align: middle;
+    }
+
+    // .catagory-main__title
+
+    &__title {
+        font-family: 'Sen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        /* identical to box height, or 143% */
+        letter-spacing: -1px;
+        color: #232536;
+
+        margin-bottom: 4px;
+    }
+
+    // .catagory-main__text
+
+    &__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
+
+        color: #6D6E76;
+
     }
 }
